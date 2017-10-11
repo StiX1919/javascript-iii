@@ -147,7 +147,7 @@ for(i in deleteTheBigNumbers){
 // CODE HERE
 function startsWithK(obj){
   for(i in obj){
-    if(i.indexOf(0)==="k"){
+    if(i.indexOf("k")===0){
       delete obj[i]
     }
   }
